@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(./font/Noto_Sans/NotoSans-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'Roboto-extra-bold';
+    src: url(./font/Noto_Sans/NotoSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'Roboto-light-italic';
+    src: url(./font/Noto_Sans/NotoSans-LightItalic.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Heading, logo and navigation links */
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 5px;
+}
+
+.navigation-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 20px;
+}
