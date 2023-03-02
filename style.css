@@ -182,3 +182,51 @@ header {
     font-family:'Roboto-extra-bold', sans-serif;
     float: right;
 }
+
+/* Fourth section of the homepage */
+
+#fourth-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth-section-outter-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 70%;
+    height: 70%;
+}
+
+#fourth-section-inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-one {
+    font-family:'Roboto-extra-bold', sans-serif;
+    color: #E5E7EB;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#text-two {
+    color: #E5E7EB;
+}
+
+.second-submit-button {
+    margin-top:20px;
+    padding:15px 32px 15px 32px;
+    text-align: center;
+    background-color: #3882f6;
+    font-size: 100%;
+    color: #E5E7EB;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid #E5E7EB 2px;
+    border-radius: 10%;
+}
