@@ -102,15 +102,55 @@ header {
     font-family: 'Roboto-extra-bold', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 40px;
 }
 
 .second-section-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .image-container {
-    border: solid red 2px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    padding-bottom: 10px;
+}
+
+.image-text {
+    text-align: justify;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.second-section-inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#beach {
+    background-image: url(./images/beach.jpg);
+    background-size: cover;
+}
+
+#snow {
+    background-image: url(./images/snow.jpg);
+    background-size: cover;
+}
+
+#nature {
+    background-image: url(./images/nature.jpg);
+    background-size: cover;
+}
+
+#big-city {
+    background-image: url(./images/big-city.jpg);
+    background-size: cover;
+}
+
+#test {
+    width: 150px;
+    height: auto;
 }
