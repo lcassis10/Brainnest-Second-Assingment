@@ -198,7 +198,7 @@ header {
     align-items: center;
     background-color: #3882F6;
     width: 70%;
-    height: 70%;
+    height: 50%;
 }
 
 #fourth-section-inner-div {
@@ -229,4 +229,28 @@ header {
     font-weight: bold;
     border: solid #E5E7EB 2px;
     border-radius: 10%;
+}
+
+/* footer */
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-top: auto;
+}
+
+.aow-social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    font-size: 260%;
+}
+
+i {
+    color: #E5E7EB;
 }
