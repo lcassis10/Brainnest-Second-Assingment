@@ -664,7 +664,7 @@ button:hover {
     }
 
     #hero-image {
-        height: 200px;
+        height: 180px;
     }
 
     .first-submit-button {
@@ -686,5 +686,133 @@ button:hover {
         font-size: 12px;
     }
 
+/* Fourth section of the homepage */
+
+    #fourth-section-outter-div {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+/* Heading, logo and navigation links */
+
+    header {
+        padding-bottom: 5px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .navigation-links {
+        font-size: 12px;
+    }
+
+/* First section of the home page */
+
+    .first-section {
+        height: 300px;
+    }
+
+    .first-section-title {
+        font-size: 18px;
+    }
+    
+    .first-section-text {
+        font-size: 12px;
+    }
+    
+    #hero-image {
+        width: auto;
+        height: 160px;
+        border-radius: 10%;
+    }
+    
+ /* Second section of homepage */
+
+    .image-text {
+        font-size: 13px;
+    }
+
+    .second-section {
+        height: 480px;
+    }
+
+    .second-section-title {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .second-section-div {
+        flex-direction: column;
+    }
+
+    .second-section-inner-div {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image-container {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 10px;
+        border: solid #1F2937 2px;
+    }
+
+/* Third section of the homepage */
+
+    #third-section-text {
+        font-size: 16px;
+    }
+
+/* Fourth section of the homepage */
+
+    #fourth-section-outter-div {
+        width: 95%;
+    }
+
+/* footer */
+
+    footer > p {
+        font-size: 12px;
+    }
+
+    .aow-social-media {
+        font-size: 150%;
+    }
+
+/* Form page */
+
+    .signup-panel-container > p {
+        font-size: 12px;
+    }
+
+    .about-us {
+        padding: 10px 0;
+    }
+
+    .about-us h1 {
+        font-size: 12px;
+        padding: 10px 50px;
+    }
+
+    .about-text p {
+        padding: 8px 50px;
+        font-size: 10px;
+}
+
+/* Destination page */
+
+    .destinations {
+        flex-direction: column;
+    }
+
+    .destinations > p {
+        width: 100%;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
 
 }
