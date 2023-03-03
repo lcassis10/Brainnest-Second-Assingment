@@ -370,6 +370,88 @@ button:hover {
 
 /* Photos page */
 
+.divMainTitlePhotos {
+    background-color: white;
+}
+
+.photosGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.photosGallery img {
+    border-radius: 15px;
+    transition: 1s;
+}
+.photosGallery img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    
+}
+.photosGalleryItem1 {
+    display: flex;
+}
+.photosGalleryItem1 p {
+    padding-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 5%;
+}
+.photosGalleryItem2 {
+    display: flex;
+}
+.photosGalleryItem2 p {
+    color: white;
+    padding-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 5%;
+}
+.photosGalleryItem3 {
+    display: flex;
+}
+.photosGalleryItem3 p {
+    padding-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 5%;
+    color: white;
+}
+.photosGalleryItem4 {
+    display: flex;
+}
+.photosGalleryItem4 p {
+    color: white;
+    padding-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 5%;
+}
+#photo1 {
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+#photoParagraph {
+    color: #1F2937;
+}
+#photo2 {
+    margin-bottom: 40px;
+    margin-right: 15%;
+}
+#photo3 {
+    margin-bottom: 40px;
+    margin-left: 15%;
+}
+#photo4 {
+    margin-bottom: 40px;
+    margin-right: 15%;
+}
+
+
 #photos {
     clear: both;
     line-height: 0;
