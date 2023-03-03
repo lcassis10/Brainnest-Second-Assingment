@@ -645,5 +645,46 @@ button:hover {
     #text-two {
         font-size: 10px;
     }
+}
+
+@media screen and (max-width: 800px) {
+
+/* First section of the homepage */
+
+    .first-section {
+        height: 250px;
+    }
+
+    .first-section-title {
+        font-size: 24px;
+    }
+
+    .first-section-text {
+        font-size: 12px;
+    }
+
+    #hero-image {
+        height: 200px;
+    }
+
+    .first-submit-button {
+        padding:5px 10px 5px 10px;
+        font-size: 70%;
+        width: 70%;
+    }
+/* Destination page */
+
+    #section-header > p {
+        font-size: 20px;
+    }
+
+    .destinations > img {
+        height: 120px;
+    }
+
+    .destinations > p {
+        font-size: 12px;
+    }
+
 
 }
