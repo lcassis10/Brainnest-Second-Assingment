@@ -876,5 +876,29 @@ button:hover {
     .aow-social-media {
         font-size: 130%;
     }
+}
 
+@media screen and (max-width: 470px) {
+
+/* Third section of the homepage */
+
+    #third-section-text {
+        font-size: 13px;
+    }
+
+/* Fourth section of homepage */
+
+    #fourth-section-outter-div {
+        width: 100%;
+    }
+
+/* Photos page */
+
+    #photos {
+        column-count: 2;
+    }
+
+    #section-header > p {
+        font-size: 18px;
+    }
 }
