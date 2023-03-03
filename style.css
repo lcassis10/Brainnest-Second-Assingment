@@ -814,5 +814,29 @@ button:hover {
         margin-right: 20px;
         margin-top: 10px;
     }
+}
+
+@media screen and (max-width: 550px) {
+
+/* Fourth section of homepage */
+
+    #fourth-section-outter-div {
+        flex-direction: column;
+    }
+
+    #fourth-section-inner-div {
+        justify-content: center;
+        align-items: center;
+    }
+
+/* footer */
+
+    footer > p {
+        font-size: 10px;
+    }
+
+    .aow-social-media {
+        font-size: 130%;
+    }
 
 }
