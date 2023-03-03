@@ -880,6 +880,18 @@ button:hover {
 
 @media screen and (max-width: 470px) {
 
+/* Heading, logo and navigation links */
+
+    .logo {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .navigation-links {
+        font-size: 12px;
+        margin-right: 2px;
+    }
+
 /* Third section of the homepage */
 
     #third-section-text {
@@ -900,5 +912,6 @@ button:hover {
 
     #section-header > p {
         font-size: 18px;
+        text-align: center;
     }
 }
