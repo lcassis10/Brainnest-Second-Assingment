@@ -395,10 +395,7 @@ button:hover {
 .photosGalleryItem1 {
     display: flex;
 }
-.divPhoto1 {
-    width: 100%;
-    heith: 100%:
-}
+
 .photosGalleryItem1 p {
     padding-top: 15%;
     font-size: 40px;
@@ -438,6 +435,7 @@ button:hover {
 #photo1 {
     margin-bottom: 40px;
     margin-left: 10%;
+    width: 100%;
 }
 #photoParagraph {
     color: #1F2937;
