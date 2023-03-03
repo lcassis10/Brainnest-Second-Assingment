@@ -560,6 +560,36 @@ button:hover {
     .destinations > p {
         font-size: 17px;
     }
+}
 
+@media screen and (max-width: 1100px) {
+
+/* Fourth section of the homepage */
+
+    #text-one {
+        font-size: 18px;
+    }
+
+    #text-two {
+        font-size: 12px;
+    }
+
+/* Destination page */
+
+    #section-header {
+        height: 100px;
+    }
+
+    #section-header > p {
+        font-size: 24px;
+    }
+
+    .destinations > img {
+        height: 150px;
+    }
+
+    .destinations > p {
+        font-size: 12px;
+    }
 
 }
