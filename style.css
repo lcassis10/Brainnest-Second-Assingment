@@ -165,11 +165,6 @@ input:hover {
     background-size: cover;
 }
 
-#test {
-    width: 150px;
-    height: auto;
-}
-
 /* Third section of the homepage */
 
 #third-section {
@@ -370,6 +365,7 @@ button:hover {
 
 .about-text p {
     padding: 15px 100px;
+    text-align: justify;
 }
 
 /* Photos page */
@@ -422,4 +418,148 @@ button:hover {
     text-align: justify;
     font-size: 20px;
     padding-left: 20px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1400px) {
+
+/* Heading, logo and navigation links */
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .navigation-links {
+        font-size: 15px;
+    }
+
+/* First section of the home page */
+
+    .first-section-title {
+        font-size: 36px;
+    }
+    
+    .first-section-text {
+        font-size: 12px;
+    }
+    
+    #hero-image {
+        width: auto;
+        height: 300px;
+        border-radius: 10%;
+    }
+    
+    .first-submit-button {
+        padding:10px 22px 10px 22px;
+        font-size: 80%;
+    }
+
+/* Second section of homepage */
+
+    .second-section {
+        height: 300px;
+    }
+
+    .second-section-title {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .second-section-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-container {
+        height: 100px;
+        width: 100px;
+        padding-bottom: 5px;
+    }
+
+    .image-text {
+        text-align: justify;
+        width: 70%;
+        padding-top: 10px;
+    }
+
+/* Third section of the homepage */
+
+    #third-section {
+        height: 300px;
+    }
+
+    #third-section-text {
+        font-size: 24px;
+        width: 70%;
+        height: 70%;
+    }
+
+/* Fourth section of the homepage */
+
+    #fourth-section {
+        height: 300px;
+    }
+
+    #text-one {
+        font-size: 18px;
+    }
+
+    .second-submit-button {
+        margin-top:10px;
+        padding:8px 16px 8px 16px;
+        font-size: 80%;
+        width: 100%;
+
+    }
+
+/* footer */
+
+    footer {
+        padding: 15px 5%;
+    }
+
+    .aow-social-media {
+        font-size: 180%;
+    }
+
+/* Form page */
+
+    .about-us {
+        padding: 10px 0;
+    }
+
+    .about-us h1 {
+        font-size: 12px;
+        padding: 10px 50px;
+    }
+
+    .about-text p {
+        padding: 8px 50px;
+        font-size: 12px;
+}
+
+/* Destination page */
+
+    #section-header {
+        height: 150px;
+    }
+
+    #section-header > p {
+        font-size: 36px;
+    }
+
+    .destinations > img {
+        height: 200px;
+    }
+
+    .destinations > p {
+        font-size: 17px;
+    }
+
+
 }
