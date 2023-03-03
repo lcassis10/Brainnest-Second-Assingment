@@ -395,6 +395,10 @@ button:hover {
 .photosGalleryItem1 {
     display: flex;
 }
+.divPhoto1 {
+    width: 100%;
+    heith: 100%:
+}
 .photosGalleryItem1 p {
     padding-top: 15%;
     font-size: 40px;
