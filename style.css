@@ -644,7 +644,14 @@ button:hover {
         font-size: 17px;
     }
 }
-
+@media screen and (max-width: 1120px) {
+    /* Photos page */
+    #photo1 {
+    margin-bottom: 40px;
+    margin-left: 10%;
+    width: 200px;
+    }
+}
 @media screen and (max-width: 1100px) {
 
 /* First section of the homepage */
