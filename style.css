@@ -818,6 +818,44 @@ button:hover {
 
 @media screen and (max-width: 550px) {
 
+/* First section of homepage */
+
+    .first-section {
+        flex-direction: column;
+        height: 450px;
+    }
+
+    .first-section-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .first-section-title {
+        padding-bottom: 20px;
+    }
+
+    .first-submit-button {
+        margin-top:0px;
+        border-radius:2px;
+        padding:5px 10px 5px 10px;
+        text-align: center;
+        background-color: #3882f6;
+        font-size: 60%;
+        color: #E5E7EB;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: none;
+        width: 100px;
+    }
+
+    #hero-image {
+        height: 180px;
+    }
+
 /* Fourth section of homepage */
 
     #fourth-section-outter-div {
