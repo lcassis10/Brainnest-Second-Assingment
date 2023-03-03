@@ -647,10 +647,17 @@ button:hover {
 @media screen and (max-width: 1120px) {
     /* Photos page */
     #photo1 {
-    margin-bottom: 40px;
-    margin-left: 10%;
-    width: 200px;
+    width: 450px;
     }
+     #photo2 {
+    width: 450px;
+    }
+     #photo3 {
+    width: 450px;
+    }
+     #photo4 {
+    width: 450px;
+    
 }
 @media screen and (max-width: 1100px) {
 
