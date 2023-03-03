@@ -514,7 +514,6 @@ button:hover {
         padding:8px 16px 8px 16px;
         font-size: 80%;
         width: 100%;
-
     }
 
 /* footer */
@@ -564,6 +563,12 @@ button:hover {
 
 @media screen and (max-width: 1100px) {
 
+/* First section of the homepage */
+
+    #hero-image {
+    height: 250px;
+    }
+
 /* Fourth section of the homepage */
 
     #text-one {
@@ -590,6 +595,55 @@ button:hover {
 
     .destinations > p {
         font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+/* Second section of homepage */
+
+    .image-text {
+        font-size: 13px;
+    }
+
+    .second-section {
+        height: 250px;
+    }
+
+    .second-section-title {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .image-container {
+        height: 70px;
+        width: 70px;
+        padding-bottom: 5px;
+    }
+
+/* Third section of the homepage */
+
+    #third-section {
+        height: 250px;
+    }
+
+    #third-section-text {
+        font-size: 18px;
+    }
+
+/* Fourth section of the homepage */
+
+    #fourth-section {
+        height: 250px;
+    }
+
+    #text-one {
+        font-size: 16px;
+    }
+
+    #text-two {
+        font-size: 10px;
     }
 
 }
