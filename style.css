@@ -649,14 +649,31 @@ button:hover {
     #photo1 {
     width: 450px;
     }
+    .photosGalleryItem1 p {
+    padding-top: 12%;
+    font-size: 30px;
+    }
      #photo2 {
     width: 450px;
+    }
+    .photosGalleryItem2 p {
+    padding-top: 12%;
+    font-size: 30px;
     }
      #photo3 {
     width: 450px;
     }
+    .photosGalleryItem3 p {
+    padding-top: 12%;
+    font-size: 30px;
+    }
      #photo4 {
     width: 450px;
+    }    
+    .photosGalleryItem4 p {
+    padding-top: 12%;
+    font-size: 30px;
+    }
     
 }
 @media screen and (max-width: 1100px) {
