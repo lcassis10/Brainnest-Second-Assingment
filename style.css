@@ -806,6 +806,37 @@ button:hover {
     #fourth-section-outter-div {
         width: 90%;
     }
+    
+        /* Photos page */
+    #photo1 {
+    width: 300px;
+    }
+    .photosGalleryItem1 p {
+    padding-top: 9%;
+    font-size: 20px;
+    }
+     #photo2 {
+    width: 300px;
+    }
+    .photosGalleryItem2 p {
+    padding-top: 9%;
+    font-size: 20px;
+    }
+     #photo3 {
+    width: 300px;
+    }
+    .photosGalleryItem3 p {
+    padding-top: 9%;
+    font-size: 20px;
+    }
+     #photo4 {
+    width: 300px;
+    }    
+    .photosGalleryItem4 p {
+    padding-top: 9%;
+    font-size: 20px;
+    }
+    
 }
 
 @media screen and (max-width: 650px) {
